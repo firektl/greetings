@@ -24,5 +24,10 @@ Para subir el proyecto a github
             ```bash (al inicio del código)
             ``` (al final del código)
             para que se muestre como código
+        
+
+        git add . => agregar todos los archivos
+        git commit - "Version 1"  => agrega un comentario al push
+        git push -u origin main => se hace el push
 
     

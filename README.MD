@@ -11,7 +11,7 @@ go get -u github.com/firektl/greetings
 Aquí tienes un ejemplo de cómo utilizar el paquete en tu código:
 
 ```go
-package greetings
+package main
 
 import (
 	"fmt"
