@@ -1,0 +1,28 @@
+Para crear un módulo:
+1.- Crear el directorio
+2.- Desde un terminal crear el módulo: go mod init gitlab.com/firektl/greetings 
+    2.1.- gitlab = repositorio
+    2.2.- firektl = usuario
+    2.3.- greetings = nombre del proyecto
+3.- Se crea el archivo go.mod
+4.- El paquete de greetings se puede usar en el archivo .go
+
+Para usar el módulo
+1.- Editar el directorio a donde va a apuntar el módulo = go mod edit -replace gitlab/firektl/greetings=../greetings
+2.- Agregar los paquetes faltantes al proyecto = go mod tidy
+
+Para subir el proyecto a github
+    Crear un nuevo repositorio en github 
+    Desde el directorio del programa en VS ejecutar 
+        git init           => iniciar el repositorio
+        git branch -M main => cambiar el nombre de la rama
+        git remote add origin https://github.com/firektl/greetings.git => agregar la ruta del repositorio
+
+        Armar el archivo de README.MD
+        Nota: 
+            usar 
+            ```bash (al inicio del código)
+            ``` (al final del código)
+            para que se muestre como código
+
+    
